@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background: #000;
+    font-weight: 600;
+}
+details {
+    width: 320px;
+    margin: auto;
+    text-align: center;
+    cursor: pointer;
+    color: deeppink;
+}
+details[open]  {
+    background-color: deeppink;
+    color: #000;
+}
+summary {
+    padding: 10px 0;
+}
+summary a {
+    color: #fff;
+    text-decoration: none;
+}
